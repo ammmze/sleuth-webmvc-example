@@ -2,7 +2,7 @@
 This is an example app where two Spring Boot (Java) services collaborate on an http request. Notably, timing of these requests are recorded into [Zipkin](http://zipkin.io/), a distributed tracing system. This allows you to see the how long the whole operation took, as well how much time was spent in each service.
 
 Here's an example of what it looks like
-<img width="928" alt="Screenshot 2019-06-24 at 4 00 27 PM" src="https://user-images.githubusercontent.com/64215/60001539-3c756500-9699-11e9-92f2-d04b6c002214.png">
+<img width="928" alt="Zipkin Screenshot" src="https://user-images.githubusercontent.com/64215/63408446-a738e780-c421-11e9-955e-e0a24e2b87bf.png">
 
 This example was initially made for a [Distributed Tracing Webinar on June 30th, 2016](https://spring.io/blog/2016/05/24/webinar-understanding-microservice-latency-an-introduction-to-distributed-tracing-and-zipkin). There's probably room to enroll if it hasn't completed, yet, and you are interested in the general topic.
 
